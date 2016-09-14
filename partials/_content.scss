@@ -1,0 +1,29 @@
+/**
+ * partials/_content.scss
+ */
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+/* Layout
+   ========================================================================== */
+
+.tbody__content {
+    vertical-align: top;
+    padding-top: $gutter*3;
+}
+
+.content {
+    max-width: $content-max-width;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Horizontal divider
+   ========================================================================== */
+
+.td__hr {
+    height: $gutter*3;
+    border-bottom: 1px solid $grey-light;
+}

@@ -1,0 +1,41 @@
+/**
+ * email.scss
+ *
+ * Styles for email templates
+ */
+
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+
+/* Settings
+   ========================================================================== */
+
+@import "settings/brand"; // Custom brand variables first: https://robots.thoughtbot.com/sass-default
+@import "settings/base";
+
+/* Tools
+   ========================================================================== */
+
+@import "tools/display";
+
+/* Core
+   ========================================================================== */
+
+@import "core/reset";
+@import "core/base";
+
+/* Utilities
+   ========================================================================== */
+
+@import "utilities/box-model";
+@import "utilities/tables";
+@import "utilities/typography";
+@import "utilities/valign";
+@import "utilities/widths";
+
+/* Partials
+   ========================================================================== */
+
+@import "partials/typography";
+@import "partials/content";

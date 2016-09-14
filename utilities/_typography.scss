@@ -1,0 +1,28 @@
+/**
+ * utilities/_typography.scss
+ */
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* Font weight
+   ========================================================================== */
+
+.font-weight--normal { font-weight: normal; }
+.font-weight--bold { font-weight: bold; }
+
+/* Text align
+   ========================================================================== */
+
+.text-align--left { text-align: left; }
+.text-align--center { text-align: center; }
+.text-align--right { text-align: right; }
+
+/* Wrap text
+   ========================================================================== */
+
+.wrap-text {
+  word-break: break-all;
+  word-wrap: break-word;
+}

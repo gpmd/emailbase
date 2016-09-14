@@ -1,0 +1,39 @@
+/**
+ * settings/_base.scss
+ */
+
+/* ==========================================================================
+   Settings
+   ========================================================================== */
+
+/* Layout
+   ========================================================================== */
+
+$content-max-width: 600px !default;
+$gutter: 10px !default;
+
+/* Colours
+   ========================================================================== */
+
+// Core
+$white: #fff !default;
+$black: #000 !default;
+
+// Greys
+$grey-lightest: #f5f5f3 !default;
+$grey-light: #e3e3e2 !default;
+$grey-medium: #9f9f9e !default;
+$grey-dark: #595958 !default;
+
+/* Typography
+   ========================================================================== */
+
+$sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$serif: Georgia, TimesNewRoman, 'Times New Roman', Times, Baskerville, serif !default;
+
+$base-font-family: $sans-serif !default;
+$base-font-size: 16px !default;
+$base-line-height: 24px !default;
+$base-font-color: $grey-dark !default;
+
+$heading-font-family: $serif !default;

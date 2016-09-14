@@ -1,0 +1,35 @@
+/**
+ * utilities/_box-model.scss
+ */
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* Box model
+   ========================================================================== */
+
+/* Padding */
+
+.padded--top { padding-top: $gutter*3; }
+.padded--bottom { padding-bottom: $gutter*3; }
+.padded--vertical { padding: $gutter*3 0; }
+.padded--horizontal { padding: 0 $gutter*3; }
+.padded { padding: $gutter*3; }
+
+/* Margins */
+
+.margin--top { margin-bottom: $gutter*3; }
+.margin--bottom { margin-bottom: $gutter*3; }
+
+.margin-top--zero { margin-top: 0; }
+.margin-bottom--zero { margin-bottom: 0 !important; }
+
+.margin--center-horizontal { margin: 0 auto; }
+
+/* Borders
+   ========================================================================== */
+
+.border--top { border-top: 1px solid $grey-light; }
+.border--bottom { border-bottom: 1px solid $grey-light; }
+.border { border: 1px solid $grey-light; }

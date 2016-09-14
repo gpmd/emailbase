@@ -1,0 +1,29 @@
+/**
+ * core/_base.scss
+ */
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+  background: $white;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $base-font-color;
+}
+
+.table__body {
+  box-sizing: border-box;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+.table__body {
+  *,
+  *:before,
+  *:after { box-sizing: inherit; }
+}

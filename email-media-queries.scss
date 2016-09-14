@@ -1,0 +1,29 @@
+/**
+ * email-media-queries.scss
+ *
+ * Media queries for email templates
+ */
+
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+
+/* Settings
+   ========================================================================== */
+
+@import "settings/brand"; // Custom brand variables first: https://robots.thoughtbot.com/sass-default
+@import "settings/base";
+
+/* Tools
+   ========================================================================== */
+
+@import "tools/display";
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+@mixin cell-stack() {
+    display: block !important;
+    width: 100% !important;
+}
